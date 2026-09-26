@@ -1,9 +1,9 @@
 ---
-base_model: unsloth/Llama-3.2-3B-Instruct
+base_model: unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit
 library_name: peft
 pipeline_tag: text-generation
 tags:
-- base_model:adapter:unsloth/Llama-3.2-3B-Instruct
+- base_model:adapter:unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit
 - lora
 - sft
 - transformers
